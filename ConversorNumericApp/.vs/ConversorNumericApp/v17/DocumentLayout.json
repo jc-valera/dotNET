@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Users\\jcvalera\\Documents\\Projects\\dotNET\\ConversorNumericApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B0BCB242-291B-4BEB-9479-DF53EAAAB810}|ConversorNumericApp\\ConversorNumericApp.csproj|d:\\users\\jcvalera\\documents\\projects\\dotnet\\conversornumericapp\\conversornumericapp\\start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0BCB242-291B-4BEB-9479-DF53EAAAB810}|ConversorNumericApp\\ConversorNumericApp.csproj|solutionrelative:conversornumericapp\\start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0BCB242-291B-4BEB-9479-DF53EAAAB810}|ConversorNumericApp\\ConversorNumericApp.csproj|d:\\users\\jcvalera\\documents\\projects\\dotnet\\conversornumericapp\\conversornumericapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0BCB242-291B-4BEB-9479-DF53EAAAB810}|ConversorNumericApp\\ConversorNumericApp.csproj|solutionrelative:conversornumericapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 173,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Users\\jcvalera\\Documents\\Projects\\dotNET\\ConversorNumericApp\\ConversorNumericApp\\Program.cs",
+              "RelativeDocumentMoniker": "ConversorNumericApp\\Program.cs",
+              "ToolTip": "D:\\Users\\jcvalera\\Documents\\Projects\\dotNET\\ConversorNumericApp\\ConversorNumericApp\\Program.cs",
+              "RelativeToolTip": "ConversorNumericApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-06T21:52:42.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Start.cs",
+              "DocumentMoniker": "D:\\Users\\jcvalera\\Documents\\Projects\\dotNET\\ConversorNumericApp\\ConversorNumericApp\\Start.cs",
+              "RelativeDocumentMoniker": "ConversorNumericApp\\Start.cs",
+              "ToolTip": "D:\\Users\\jcvalera\\Documents\\Projects\\dotNET\\ConversorNumericApp\\ConversorNumericApp\\Start.cs",
+              "RelativeToolTip": "ConversorNumericApp\\Start.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-06T21:52:41.401Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
