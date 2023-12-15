@@ -111,7 +111,6 @@ namespace Jcvalera.Conversor.App
 
         }
 
-        //public bool ContinueProgram(string readLine)
         public bool ContinueProgram()
         {
             WriteLine();
