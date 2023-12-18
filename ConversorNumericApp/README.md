@@ -2,10 +2,10 @@
 
 In this project we create a console application to help:
 
-- Convert a number in a text
-- Convert a number in a roman number
-- Convert a roman number in a number 
-- Convert a text number in a number
+- Convert number in a text
+- Convert number in a roman number
+- Convert roman number in a number 
+- Convert text number in a number
 
 # How to use.
 
