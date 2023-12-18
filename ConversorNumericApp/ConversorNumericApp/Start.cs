@@ -13,7 +13,7 @@ namespace Jcvalera.Conversor.App
             WriteLine("=    1.- Convert number (integer) to letter.         =");
             WriteLine("=    2.- Convert number (integer) to roman number.   =");
             WriteLine("=    3.- Convert roman number to integer.            =");
-            WriteLine("=    4.- Convert number integer to text.             =");
+            WriteLine("=    4.- Convert text number in a number (integer).  =");
             WriteLine("======================================================");
             WriteLine();
 
@@ -60,7 +60,6 @@ namespace Jcvalera.Conversor.App
                     /*
                      * Convert number roman to number
                      */
-                    //string[] romanLetter = { "CXXXV" }; //example
 
                     WriteLine(">> Enter a roman number: ");
 
