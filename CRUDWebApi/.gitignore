@@ -1,0 +1,9 @@
+
+# Visual Studio code
+.vscode
+
+CRUDWebApi/[Bb]in/
+CRUDWebApi/[Oo]bj/
+
+# Visual Studio
+.vs/
