@@ -3077,23 +3077,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dell\\.nuget\\packages\\": {},
+    "C:\\Users\\jcvelazquez\\.nuget\\packages\\": {},
     "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\jcvalera\\Documents\\Projects\\dotNET\\CrudWebApiEntity\\CrudWebApiEntity\\CrudWebApiEntity.csproj",
+      "projectUniqueName": "D:\\Users\\jcvelazquez\\Documents\\Projects\\dotNET\\CrudWebApiEntity\\CrudWebApiEntity\\CrudWebApiEntity.csproj",
       "projectName": "CrudWebApiEntity",
-      "projectPath": "D:\\Users\\jcvalera\\Documents\\Projects\\dotNET\\CrudWebApiEntity\\CrudWebApiEntity\\CrudWebApiEntity.csproj",
-      "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\jcvalera\\Documents\\Projects\\dotNET\\CrudWebApiEntity\\CrudWebApiEntity\\obj\\",
+      "projectPath": "D:\\Users\\jcvelazquez\\Documents\\Projects\\dotNET\\CrudWebApiEntity\\CrudWebApiEntity\\CrudWebApiEntity.csproj",
+      "packagesPath": "C:\\Users\\jcvelazquez\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\jcvelazquez\\Documents\\Projects\\dotNET\\CrudWebApiEntity\\CrudWebApiEntity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jcvelazquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3102,7 +3102,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
