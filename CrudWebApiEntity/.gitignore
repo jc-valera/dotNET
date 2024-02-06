@@ -1,6 +1,5 @@
-
-# Visual Studio code	
-.vscode	
+# Visual Studio	
+.vs/
 
 # Build results	
 CrudWebApiEntity/[Bb]in/	
@@ -9,5 +8,5 @@ CrudWebApiEntity/[Oo]bj/
 Jcvalera.Common/[Bb]in/	
 Jcvalera.Common/[Oo]bj/	
 
-# Visual Studio	
-.vs/
+# Visual Studio code	
+.vscode	
