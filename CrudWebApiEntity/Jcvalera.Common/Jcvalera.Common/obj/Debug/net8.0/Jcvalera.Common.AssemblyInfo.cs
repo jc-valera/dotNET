@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Jcvalera.Common")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac37ec6b7a6574e2dd14e83cc51eeaf5338c7036")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61f54924d615925be6ed11ec842c2085e448469a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Jcvalera.Common")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Jcvalera.Common")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

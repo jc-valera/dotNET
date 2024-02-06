@@ -6,6 +6,9 @@
 Jcvalera.Common/[Bb]in/	
 Jcvalera.Common/[Oo]bj/	
 
+Jcvalera.Common.DataAccess.SqlServer/[Bb]in/
+Jcvalera.Common.DataAccess.SqlServer/[Oo]bj/
+
 #Visual Studio Code
 .vscode
 

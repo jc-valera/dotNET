@@ -10,3 +10,15 @@ D:\Users\jcvalera\Documents\Projects\dotNET\CrudWebApiEntity\Jcvalera.Common\Jcv
 D:\Users\jcvalera\Documents\Projects\dotNET\CrudWebApiEntity\Jcvalera.Common\Jcvalera.Common\obj\Debug\net8.0\refint\Jcvalera.Common.dll
 D:\Users\jcvalera\Documents\Projects\dotNET\CrudWebApiEntity\Jcvalera.Common\Jcvalera.Common\obj\Debug\net8.0\Jcvalera.Common.pdb
 D:\Users\jcvalera\Documents\Projects\dotNET\CrudWebApiEntity\Jcvalera.Common\Jcvalera.Common\obj\Debug\net8.0\ref\Jcvalera.Common.dll
+D:\Users\jcvelazquez\Documents\Projects\dotNET\CrudWebApiEntity\Jcvalera.Common\Jcvalera.Common\bin\Debug\net8.0\Jcvalera.Common.deps.json
+D:\Users\jcvelazquez\Documents\Projects\dotNET\CrudWebApiEntity\Jcvalera.Common\Jcvalera.Common\bin\Debug\net8.0\Jcvalera.Common.dll
+D:\Users\jcvelazquez\Documents\Projects\dotNET\CrudWebApiEntity\Jcvalera.Common\Jcvalera.Common\bin\Debug\net8.0\Jcvalera.Common.pdb
+D:\Users\jcvelazquez\Documents\Projects\dotNET\CrudWebApiEntity\Jcvalera.Common\Jcvalera.Common\obj\Debug\net8.0\Jcvalera.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\jcvelazquez\Documents\Projects\dotNET\CrudWebApiEntity\Jcvalera.Common\Jcvalera.Common\obj\Debug\net8.0\Jcvalera.Common.AssemblyInfoInputs.cache
+D:\Users\jcvelazquez\Documents\Projects\dotNET\CrudWebApiEntity\Jcvalera.Common\Jcvalera.Common\obj\Debug\net8.0\Jcvalera.Common.AssemblyInfo.cs
+D:\Users\jcvelazquez\Documents\Projects\dotNET\CrudWebApiEntity\Jcvalera.Common\Jcvalera.Common\obj\Debug\net8.0\Jcvalera.Common.csproj.CoreCompileInputs.cache
+D:\Users\jcvelazquez\Documents\Projects\dotNET\CrudWebApiEntity\Jcvalera.Common\Jcvalera.Common\obj\Debug\net8.0\Jcvalera.Common.sourcelink.json
+D:\Users\jcvelazquez\Documents\Projects\dotNET\CrudWebApiEntity\Jcvalera.Common\Jcvalera.Common\obj\Debug\net8.0\Jcvalera.Common.dll
+D:\Users\jcvelazquez\Documents\Projects\dotNET\CrudWebApiEntity\Jcvalera.Common\Jcvalera.Common\obj\Debug\net8.0\refint\Jcvalera.Common.dll
+D:\Users\jcvelazquez\Documents\Projects\dotNET\CrudWebApiEntity\Jcvalera.Common\Jcvalera.Common\obj\Debug\net8.0\Jcvalera.Common.pdb
+D:\Users\jcvelazquez\Documents\Projects\dotNET\CrudWebApiEntity\Jcvalera.Common\Jcvalera.Common\obj\Debug\net8.0\ref\Jcvalera.Common.dll

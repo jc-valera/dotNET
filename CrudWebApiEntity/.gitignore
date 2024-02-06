@@ -3,10 +3,7 @@
 
 # Build results	
 CrudWebApiEntity/[Bb]in/	
-CrudWebApiEntity/[Oo]bj/	
-
-Jcvalera.Common/[Bb]in/	
-Jcvalera.Common/[Oo]bj/	
+CrudWebApiEntity/[Oo]bj/
 
 # Visual Studio code	
 .vscode	
