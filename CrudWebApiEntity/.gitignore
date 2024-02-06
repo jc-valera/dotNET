@@ -5,5 +5,8 @@
 CrudWebApiEntity/[Bb]in/	
 CrudWebApiEntity/[Oo]bj/
 
+Jcvalera.Common/Jcvalera.Common/obj/
+Jcvalera.Common/Jcvalera.Common/bin/
+
 # Visual Studio code	
 .vscode	
