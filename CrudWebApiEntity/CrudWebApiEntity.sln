@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34526.213
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudWebApiEntity", "CrudWebApiEntity\CrudWebApiEntity.csproj", "{FBEA3A22-2211-4A2B-A5A1-5397EB30860D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBEA3A22-2211-4A2B-A5A1-5397EB30860D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBEA3A22-2211-4A2B-A5A1-5397EB30860D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBEA3A22-2211-4A2B-A5A1-5397EB30860D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBEA3A22-2211-4A2B-A5A1-5397EB30860D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFD2F01E-D0B2-40FC-A807-389DFDF50BE7}
+	EndGlobalSection
+EndGlobal

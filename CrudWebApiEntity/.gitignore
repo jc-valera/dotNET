@@ -1,0 +1,9 @@
+# Visual Studio	
+.vs/
+
+# Build results	
+CrudWebApiEntity/[Bb]in/	
+CrudWebApiEntity/[Oo]bj/
+
+# Visual Studio code	
+.vscode	

@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>false</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Jcvalera.Common">
+      <HintPath>..\Jcvalera.Common\Jcvalera.Common\bin\Debug\net8.0\Jcvalera.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Jcvalera.Common.DataAccess.SqlServer">
+      <HintPath>..\Jcvalera.Common\Jcvalera.Common.DataAccess.SqlServer\bin\Debug\net8.0\Jcvalera.Common.DataAccess.SqlServer.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
