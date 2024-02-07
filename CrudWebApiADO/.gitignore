@@ -2,8 +2,18 @@
 .vs/
 
 #Build result
-bin/
-obj/
+CrudWebApiADO/bin/
+CrudWebApiADO/obj/
+
+Jcvalera.Common/Jcvalera.Common.Core.BLL/obj/
+Jcvalera.Common/Jcvalera.Common.Core.BLL/bin/
+
+Jcvalera.Common/Jcvalera.Common.Core.DAL/bin/
+Jcvalera.Common/Jcvalera.Common.Core.DAL/obj/
+
+Jcvalera.Common/Jcvalera.Common/bin
+Jcvalera.Common/Jcvalera.Common/obj
+
 
 #Visual Studio Code
 .vscode
