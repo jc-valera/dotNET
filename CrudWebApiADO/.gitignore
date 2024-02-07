@@ -2,17 +2,8 @@
 .vs/
 
 #Build result
-CrudWebApiADO/[Bb]in/
-CrudWebApiADO/[Oo]bj/
-
-CrudWebApiADO/Jcvalera.Common/Jcvalera.Common/[Bb]in/
-CrudWebApiADO/Jcvalera.Common/Jcvalera.Common/[Oo]bj/
-
-CrudWebApiADO/Jcvalera.Common/Jcvalera.Common.Core.BLL/[Bb]in/
-CrudWebApiADO/Jcvalera.Common/Jcvalera.Common.Core.BLL/[Oo]bj/
-
-CrudWebApiADO/Jcvalera.Common/Jcvalera.Common.Core.DAL/[Bb]in/
-CrudWebApiADO/Jcvalera.Common/Jcvalera.Common.Core.DAL/[Oo]bj/
+bin/
+obj/
 
 #Visual Studio Code
 .vscode
