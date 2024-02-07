@@ -1,0 +1,221 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Users\\jcvelazquez\\Documents\\Projects\\dotNET\\CrudWebApiADO\\Jcvalera.Common\\Jcvalera.Common.Core.BLL\\Jcvalera.Common.Core.BLL.csproj": {}
+  },
+  "projects": {
+    "D:\\Users\\jcvelazquez\\Documents\\Projects\\dotNET\\CrudWebApiADO\\Jcvalera.Common\\Jcvalera.Common.Core.BLL\\Jcvalera.Common.Core.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\jcvelazquez\\Documents\\Projects\\dotNET\\CrudWebApiADO\\Jcvalera.Common\\Jcvalera.Common.Core.BLL\\Jcvalera.Common.Core.BLL.csproj",
+        "projectName": "Jcvalera.Common.Core.BLL",
+        "projectPath": "D:\\Users\\jcvelazquez\\Documents\\Projects\\dotNET\\CrudWebApiADO\\Jcvalera.Common\\Jcvalera.Common.Core.BLL\\Jcvalera.Common.Core.BLL.csproj",
+        "packagesPath": "C:\\Users\\jcvelazquez\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\jcvelazquez\\Documents\\Projects\\dotNET\\CrudWebApiADO\\Jcvalera.Common\\Jcvalera.Common.Core.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jcvelazquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Users\\jcvelazquez\\Documents\\Projects\\dotNET\\CrudWebApiADO\\Jcvalera.Common\\Jcvalera.Common.Core.DAL\\Jcvalera.Common.Core.DAL.csproj": {
+                "projectPath": "D:\\Users\\jcvelazquez\\Documents\\Projects\\dotNET\\CrudWebApiADO\\Jcvalera.Common\\Jcvalera.Common.Core.DAL\\Jcvalera.Common.Core.DAL.csproj"
+              },
+              "D:\\Users\\jcvelazquez\\Documents\\Projects\\dotNET\\CrudWebApiADO\\Jcvalera.Common\\Jcvalera.Common\\Jcvalera.Common.csproj": {
+                "projectPath": "D:\\Users\\jcvelazquez\\Documents\\Projects\\dotNET\\CrudWebApiADO\\Jcvalera.Common\\Jcvalera.Common\\Jcvalera.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200-preview.23624.5/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Users\\jcvelazquez\\Documents\\Projects\\dotNET\\CrudWebApiADO\\Jcvalera.Common\\Jcvalera.Common.Core.DAL\\Jcvalera.Common.Core.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\jcvelazquez\\Documents\\Projects\\dotNET\\CrudWebApiADO\\Jcvalera.Common\\Jcvalera.Common.Core.DAL\\Jcvalera.Common.Core.DAL.csproj",
+        "projectName": "Jcvalera.Common.Core.DAL",
+        "projectPath": "D:\\Users\\jcvelazquez\\Documents\\Projects\\dotNET\\CrudWebApiADO\\Jcvalera.Common\\Jcvalera.Common.Core.DAL\\Jcvalera.Common.Core.DAL.csproj",
+        "packagesPath": "C:\\Users\\jcvelazquez\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\jcvelazquez\\Documents\\Projects\\dotNET\\CrudWebApiADO\\Jcvalera.Common\\Jcvalera.Common.Core.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jcvelazquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200-preview.23624.5/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Users\\jcvelazquez\\Documents\\Projects\\dotNET\\CrudWebApiADO\\Jcvalera.Common\\Jcvalera.Common\\Jcvalera.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\jcvelazquez\\Documents\\Projects\\dotNET\\CrudWebApiADO\\Jcvalera.Common\\Jcvalera.Common\\Jcvalera.Common.csproj",
+        "projectName": "Jcvalera.Common",
+        "projectPath": "D:\\Users\\jcvelazquez\\Documents\\Projects\\dotNET\\CrudWebApiADO\\Jcvalera.Common\\Jcvalera.Common\\Jcvalera.Common.csproj",
+        "packagesPath": "C:\\Users\\jcvelazquez\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\jcvelazquez\\Documents\\Projects\\dotNET\\CrudWebApiADO\\Jcvalera.Common\\Jcvalera.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jcvelazquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200-preview.23624.5/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
