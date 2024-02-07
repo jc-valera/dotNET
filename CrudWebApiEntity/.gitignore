@@ -2,8 +2,8 @@
 .vs/
 
 # Build results	
-CrudWebApiEntity/[Bb]in/	
-CrudWebApiEntity/[Oo]bj/
+CrudWebApiEntity/bin/
+CrudWebApiEntity/obj/
 
 Jcvalera.Common/Jcvalera.Common/obj/
 Jcvalera.Common/Jcvalera.Common/bin/
