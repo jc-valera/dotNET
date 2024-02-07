@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Jcvalera.Common.Core.BLL</AssemblyName>
+    <RootNamespace>Jcvalera.Common.Core.BLL</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Jcvalera.Common.Core.DAL\Jcvalera.Common.Core.DAL.csproj" />
+    <ProjectReference Include="..\Jcvalera.Common\Jcvalera.Common.csproj" />
+  </ItemGroup>
+
+</Project>
