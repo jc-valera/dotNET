@@ -15,6 +15,28 @@ namespace Jcvalera.Common.Core.DAL
             Connection = builder.GetSection("ConnectionStrings:DbConnection").Value;
         }
 
+        public async Task<bool> ExistUser(int id)
+        {
+            var userExist = false;
+
+            var queryString = $"SELECT Id FROM Users WHERE Id = {id}";
+
+            using (SqlConnection conn = new (Connection))
+            {
+                conn.Open();
+                var cmd = new SqlCommand(queryString, conn);
+                var reader = cmd.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    userExist = true;
+                }
+                conn.Close();
+            }
+            
+            return userExist;
+        }
+
         public async Task<IEnumerable<User>> GetUsers()
         {
             var users = new List<User>();

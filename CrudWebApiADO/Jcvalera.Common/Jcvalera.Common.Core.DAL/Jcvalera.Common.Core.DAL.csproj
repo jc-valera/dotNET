@@ -16,7 +16,7 @@
 
   <ItemGroup>
     <Reference Include="Jcvalera.Common">
-      <HintPath>..\Jcvalera.Common\bin\Debug\net8.0\Jcvalera.Common.dll</HintPath>
+      <HintPath>..\..\..\CrudWebApiEntity\Jcvalera.Common\Jcvalera.Common\bin\Debug\net8.0\Jcvalera.Common.dll</HintPath>
     </Reference>
   </ItemGroup>
 

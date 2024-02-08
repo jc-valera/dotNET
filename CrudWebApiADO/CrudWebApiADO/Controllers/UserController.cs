@@ -19,6 +19,16 @@ namespace CrudWebApiADO.Controllers
         }
 
         [HttpGet]
+        [Route("UserExist")]
+        public async Task<ActionResult> ExistUser(int id)
+        {
+            var userExist = await userBLL.ExistUser(id);
+
+            return Ok(userExist);
+        }
+
+
+        [HttpGet]
         public async Task<ActionResult<List<User>>> GetUsers()
         {
             var users = await userBLL.GetUsers();

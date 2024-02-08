@@ -12,6 +12,13 @@ namespace Jcvalera.Common.Core.BLL
             dataAccess = new SqlServerDAL();
         }
 
+        public async Task<bool> ExistUser(int id)
+        {
+            var userExist = await dataAccess.ExistUser(id);
+
+            return userExist;
+        }
+
         public async Task<IEnumerable<User>> GetUsers()
         {
             var users = await dataAccess.GetUsers();
