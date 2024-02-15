@@ -1,0 +1,12 @@
+# Visual Studio
+.vs/
+
+# Build Results
+QuickConnectSql/bin/
+QuickConnectSql/obj/
+
+# Visual Studio Code
+.vscode/
+
+# User-specific files
+*.suo
