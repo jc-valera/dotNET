@@ -1,0 +1,28 @@
+# Visual Studio
+.vs/
+
+# Build result
+CrudWebMvcFramework/bin/
+CrudWebMvcFramework/obj/
+
+BLL/bin/
+BLL/obj/
+
+Common/bin/
+Common/obj/
+
+DAL/bin/
+DAL/obj/
+
+CRUD_DB/bin/
+CRUD_DB/obj/
+
+#Visual Studio Code
+.vscode
+
+# User-specific files
+*.suo
+
+# Others
+CRUD_DB/*.dbmdl
+CRUD_DB/*.jfm
