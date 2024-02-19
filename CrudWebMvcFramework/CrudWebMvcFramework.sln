@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34607.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudWebMvcFramework", "CrudWebMvcFramework\CrudWebMvcFramework.csproj", "{3F698B9C-02F2-44A4-AAA2-BF61EF23B1D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Jcvalera.Core.Common", "Jcvalera.Core.Common", "{CC334EDF-40E7-419A-88A9-D3F8AC705CF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Jcvalera.Core.BLL", "Jcvalera.Core.BLL", "{CD31759D-881C-40FA-AAB5-902D9D257DBC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Jcvalera.Core.DAL", "Jcvalera.Core.DAL", "{968CD436-DB7E-47CC-AEC5-FF977BB134EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{CDB194C0-6920-4A9D-9603-10276285F8BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{014952AC-9C08-4E15-A5B4-F02A6C43E439}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{52992259-DEB3-4862-85F5-FDCD6F4E8174}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CRUD_DB", "CRUD_DB\CRUD_DB.sqlproj", "{55E25D98-5AAD-4A23-AA94-BD0D96B43DF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F698B9C-02F2-44A4-AAA2-BF61EF23B1D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F698B9C-02F2-44A4-AAA2-BF61EF23B1D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F698B9C-02F2-44A4-AAA2-BF61EF23B1D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F698B9C-02F2-44A4-AAA2-BF61EF23B1D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDB194C0-6920-4A9D-9603-10276285F8BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDB194C0-6920-4A9D-9603-10276285F8BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDB194C0-6920-4A9D-9603-10276285F8BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDB194C0-6920-4A9D-9603-10276285F8BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{014952AC-9C08-4E15-A5B4-F02A6C43E439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{014952AC-9C08-4E15-A5B4-F02A6C43E439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{014952AC-9C08-4E15-A5B4-F02A6C43E439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{014952AC-9C08-4E15-A5B4-F02A6C43E439}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52992259-DEB3-4862-85F5-FDCD6F4E8174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52992259-DEB3-4862-85F5-FDCD6F4E8174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52992259-DEB3-4862-85F5-FDCD6F4E8174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52992259-DEB3-4862-85F5-FDCD6F4E8174}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55E25D98-5AAD-4A23-AA94-BD0D96B43DF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55E25D98-5AAD-4A23-AA94-BD0D96B43DF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55E25D98-5AAD-4A23-AA94-BD0D96B43DF9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{55E25D98-5AAD-4A23-AA94-BD0D96B43DF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55E25D98-5AAD-4A23-AA94-BD0D96B43DF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55E25D98-5AAD-4A23-AA94-BD0D96B43DF9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CDB194C0-6920-4A9D-9603-10276285F8BA} = {CC334EDF-40E7-419A-88A9-D3F8AC705CF1}
+		{014952AC-9C08-4E15-A5B4-F02A6C43E439} = {968CD436-DB7E-47CC-AEC5-FF977BB134EF}
+		{52992259-DEB3-4862-85F5-FDCD6F4E8174} = {CD31759D-881C-40FA-AAB5-902D9D257DBC}
+		{55E25D98-5AAD-4A23-AA94-BD0D96B43DF9} = {CC334EDF-40E7-419A-88A9-D3F8AC705CF1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B07F34FD-9D6C-4A52-A672-9AD288982FA2}
+	EndGlobalSection
+EndGlobal
