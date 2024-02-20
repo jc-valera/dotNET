@@ -1,12 +1,6 @@
 ﻿using Jcvalera.Core.BLL;
 using Jcvalera.Core.Common.Entities;
-using Microsoft.Ajax.Utilities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
 using System.Threading.Tasks;
-using System.Web;
 using System.Web.Mvc;
 
 namespace CrudWebMvcFramework.Controllers
@@ -31,6 +25,11 @@ namespace CrudWebMvcFramework.Controllers
         // GET: User/Details/5
         public async Task<ActionResult> Details(int id)
         {
+            var userExist = await userBLL.UserExist(id);
+
+            if (!userExist)
+                return View("ErrorPage");
+
             var user = await userBLL.GetUser(id);
 
             return View(user);
@@ -107,6 +106,12 @@ namespace CrudWebMvcFramework.Controllers
             {
                 return View();
             }
+        }
+
+        [HttpGet]
+        public ActionResult ErrorPage()
+        {
+            return View();
         }
     }
 }

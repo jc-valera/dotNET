@@ -12,9 +12,11 @@ namespace Jcvalera.Core.Common.DataAccess
 
         Task UpdateUser(User user);
 
-        Task DeleteUser(int Id);
+        Task DeleteUser(int id);
 
-        Task<User> GetUser(int Id);
+        Task<User> GetUser(int id);
+
+        Task<bool> UserExist(int id);
 
     }
 }

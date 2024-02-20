@@ -38,9 +38,16 @@ namespace Jcvalera.Core.BLL
             await userDAL.UpdateUser(user);
         }
 
-        public async Task DeleteUser(int Id)
+        public async Task DeleteUser(int id)
         {
-            await userDAL.DeleteUser(Id);
+            await userDAL.DeleteUser(id);
+        }
+
+        public async Task<bool> UserExist(int id) 
+        {
+            var userExist = await userDAL.UserExist(id);
+
+            return userExist;
         }
 
     }
