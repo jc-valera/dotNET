@@ -13,6 +13,8 @@ namespace Jcvalera.Core.DAL
     {
         private SqlConnection connection;
 
+        private string QueryString = string.Empty;
+
         public UserDAL()
         {
             var connectionString = ConfigurationManager.ConnectionStrings["DbConnection"].ConnectionString;
@@ -23,49 +25,47 @@ namespace Jcvalera.Core.DAL
         {
             var user = new User();
 
-            var queryString = $"SELECT * FROM Users WHERE Id = {Id}";
+            QueryString = $"SELECT * FROM Users WHERE Id = {Id}";
 
-            using (var con = (connection))
+            connection.Open();
+
+            using (var cmd = new SqlCommand(QueryString, connection))
             {
-                con.Open();
-
-                using (var cmd = new SqlCommand(queryString, connection))
+                using (var reader = await cmd.ExecuteReaderAsync())
                 {
-                    using (var reader = cmd.ExecuteReader())
+                    while (reader.Read())
                     {
-                        while (reader.Read())
+                        user = new User
                         {
-                            user = new User
-                            {
-                                Id = Convert.ToInt32(reader["Id"]),
-                                Name = reader["Name"].ToString(),
-                                LatName = reader["LastName"].ToString(),
-                                Age = Convert.ToInt32(reader["Age"])
-                            };
-                        }
+                            Id = Convert.ToInt32(reader["Id"]),
+                            Name = reader["Name"].ToString(),
+                            LatName = reader["LastName"].ToString(),
+                            Age = Convert.ToInt32(reader["Age"])
+                        };
                     }
                 }
             }
+
+            connection.Close();
 
             return user;
         }
 
         public async Task CreateUser(User user)
         {
-            using (var con = (connection))
+            connection.Open();
+
+            using (var cmd = new SqlCommand("sp_CreateUser", connection))
             {
-                con.Open();
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@Name", user.Name);
+                cmd.Parameters.AddWithValue("@LastName", user.LatName);
+                cmd.Parameters.AddWithValue("@Age", user.Age);
 
-                using (var cmd = new SqlCommand("sp_CreateUser", con))
-                {
-                    cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@Name", user.Name);
-                    cmd.Parameters.AddWithValue("@LastName", user.LatName);
-                    cmd.Parameters.AddWithValue("@Age", user.Age);
-
-                    cmd.ExecuteNonQuery();
-                }
+                await cmd.ExecuteNonQueryAsync();
             }
+
+            connection.Close();
         }
 
         public async Task<List<User>> GetUsers()
@@ -77,7 +77,7 @@ namespace Jcvalera.Core.DAL
             using (var cmd = new SqlCommand("sp_GetUsers", connection))
             {
                 cmd.CommandType = CommandType.StoredProcedure;
-                using (var reader = cmd.ExecuteReader())
+                using (var reader = await cmd.ExecuteReaderAsync())
                 {
                     while (reader.Read())
                     {
@@ -94,44 +94,67 @@ namespace Jcvalera.Core.DAL
                 }
             }
 
+            connection.Close();
+
             return users;
         }
 
         public async Task UpdateUser(User user)
         {
-            using (var con = (connection))
+            connection.Open();
+
+            using (var cmd = new SqlCommand("sp_UpdateUser", connection))
             {
-                con.Open();
+                cmd.CommandType = CommandType.StoredProcedure;
 
-                using (var cmd = new SqlCommand("sp_UpdateUser", con))
-                {
-                    cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@Id", user.Id);
+                cmd.Parameters.AddWithValue("@Name", user.Name);
+                cmd.Parameters.AddWithValue("@LastName", user.LatName);
+                cmd.Parameters.AddWithValue("@Age", user.Age);
 
-                    cmd.Parameters.AddWithValue("@Id", user.Id);
-                    cmd.Parameters.AddWithValue("@Name", user.Name);
-                    cmd.Parameters.AddWithValue("@LastName", user.LatName);
-                    cmd.Parameters.AddWithValue("@Age", user.Age);
-
-                    cmd.ExecuteNonQuery();
-                }
+                await cmd.ExecuteNonQueryAsync();
             }
+
+            connection.Close();
         }
 
-        public async Task DeleteUser(int Id)
+        public async Task DeleteUser(int id)
         {
-            using (var con = (connection))
+            connection.Open();
+
+            using (var cmd = new SqlCommand("sp_DeleteUser", connection))
             {
-                con.Open();
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@Id", id);
 
-                using (var cmd = new SqlCommand("sp_DeleteUser", con))
-                {
-                    cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@Id", Id);
-
-                    cmd.ExecuteNonQuery();
-                }
-
+                await cmd.ExecuteNonQueryAsync();
             }
+
+            connection.Close();
+        }
+
+        public async Task<bool> UserExist(int id)
+        {
+            var userExist = false;
+
+            QueryString = $"SELECT * FROM Users WHERE Id = {id}";
+
+            connection.Open();
+
+            using (var cmd = new SqlCommand(QueryString, connection))
+            {
+                using (var reader = await cmd.ExecuteReaderAsync())
+                {
+                    while (reader.Read())
+                    {
+                        userExist = true;
+                    }
+                }
+            }
+
+            connection.Close();
+
+            return userExist;
         }
 
     }
