@@ -1,0 +1,21 @@
+# Visual Studio
+.vs/
+
+# Build Results
+Jcvalera.Core.BLL/bin/
+Jcvalera.Core.BLL/obj/
+
+Jcvalera.Core.Common/bin/
+Jcvalera.Core.Common/obj/
+
+Jcvalera.Core.DAL/bin/
+Jcvalera.Core.DAL/obj/
+
+ScenaryNET/bin/
+ScenaryNET/obj/
+
+# Visual Studio Code
+.vscode
+
+# User-specify files
+*.suo

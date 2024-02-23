@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34607.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScenaryNET", "ScenaryNET\ScenaryNET.csproj", "{3E85CA29-276A-400F-B0DB-D145B142A143}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{CB0FEA8E-228D-49C2-80EB-0CC437378CBC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{0743F849-A3C1-4701-97D9-A3FB83D2FCC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{A974E8CD-D1D6-4BF6-9A8D-456BB5D15C86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{542CDD6C-1290-47BE-93C4-3FAE645AB8AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jcvalera.Core.BLL", "Jcvalera.Core.BLL\Jcvalera.Core.BLL.csproj", "{924B24B2-3933-4039-93F2-38A5C5F33469}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jcvalera.Core.Common", "Jcvalera.Core.Common\Jcvalera.Core.Common.csproj", "{6C483C14-B603-4FBA-B4B4-8312C24C849C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jcvalera.Core.DAL", "Jcvalera.Core.DAL\Jcvalera.Core.DAL.csproj", "{4BE2D943-542F-480A-94FE-04529AC2623D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E85CA29-276A-400F-B0DB-D145B142A143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E85CA29-276A-400F-B0DB-D145B142A143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E85CA29-276A-400F-B0DB-D145B142A143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E85CA29-276A-400F-B0DB-D145B142A143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{924B24B2-3933-4039-93F2-38A5C5F33469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{924B24B2-3933-4039-93F2-38A5C5F33469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{924B24B2-3933-4039-93F2-38A5C5F33469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{924B24B2-3933-4039-93F2-38A5C5F33469}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C483C14-B603-4FBA-B4B4-8312C24C849C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C483C14-B603-4FBA-B4B4-8312C24C849C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C483C14-B603-4FBA-B4B4-8312C24C849C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C483C14-B603-4FBA-B4B4-8312C24C849C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BE2D943-542F-480A-94FE-04529AC2623D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BE2D943-542F-480A-94FE-04529AC2623D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BE2D943-542F-480A-94FE-04529AC2623D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BE2D943-542F-480A-94FE-04529AC2623D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0743F849-A3C1-4701-97D9-A3FB83D2FCC1} = {CB0FEA8E-228D-49C2-80EB-0CC437378CBC}
+		{A974E8CD-D1D6-4BF6-9A8D-456BB5D15C86} = {CB0FEA8E-228D-49C2-80EB-0CC437378CBC}
+		{542CDD6C-1290-47BE-93C4-3FAE645AB8AD} = {CB0FEA8E-228D-49C2-80EB-0CC437378CBC}
+		{924B24B2-3933-4039-93F2-38A5C5F33469} = {0743F849-A3C1-4701-97D9-A3FB83D2FCC1}
+		{6C483C14-B603-4FBA-B4B4-8312C24C849C} = {A974E8CD-D1D6-4BF6-9A8D-456BB5D15C86}
+		{4BE2D943-542F-480A-94FE-04529AC2623D} = {542CDD6C-1290-47BE-93C4-3FAE645AB8AD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4AF7F06F-8F11-42A7-8488-DAB428E108A9}
+	EndGlobalSection
+EndGlobal
