@@ -1,10 +1,14 @@
 ﻿using Jcvalera.Core.Common.Entities;
 using Jcvalera.Core.DAL;
 using Microsoft.Exchange.WebServices.Data;
+using Newtonsoft.Json;
 using OfficeOpenXml;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.IO;
+using System.Net.Http;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace Jcvalera.Core.BLL
@@ -46,6 +50,26 @@ namespace Jcvalera.Core.BLL
             }
         }
 
+        public async Task<PostNode> RequestTypeGET()
+        {
+            var postNode = new PostNode();
+
+            var url = "https://jsonplaceholder.typicode.com/posts/1";
+
+            HttpResponseMessage response;
+
+            using (var client = new HttpClient())
+            {
+                client.DefaultRequestHeaders.Clear();
+
+                response = await client.GetAsync(url).ConfigureAwait(false);
+
+                postNode = JsonConvert.DeserializeObject<PostNode>(await response.Content.ReadAsStringAsync().ConfigureAwait(false));
+            }
+
+            return postNode;
+        }
+
         public async Task<List<SalesCustomer>> GetSalesCustomer()
         {
             var salesCustomer = await salesDAL.GetSalesCustomer();
@@ -78,6 +102,91 @@ namespace Jcvalera.Core.BLL
 
             mail.Send();
 
+        }
+
+        public async Task<PostNode> RequestTypePOST()
+        {
+            var postNodeResult = new PostNode();
+
+            var url = "https://jsonplaceholder.typicode.com/posts";
+
+            var postNode = new PostNode
+            {
+                title = "Title Test Jcvalera",
+                body = "Body Test Jcvalera",
+                userId = 50
+            };
+
+            HttpResponseMessage response;
+
+            using (var client = new HttpClient())
+            {
+                client.DefaultRequestHeaders.Clear();
+
+                var content = new StringContent(JsonConvert.SerializeObject(postNode), Encoding.UTF8, "application/json");
+
+                response = await client.PostAsync(url, content).ConfigureAwait(false);
+
+                postNodeResult = JsonConvert.DeserializeObject<PostNode>(await response.Content.ReadAsStringAsync().ConfigureAwait(false));
+            }
+
+            return postNodeResult;
+        }
+
+        public async Task<PostNode> RequestTypePUT()
+        {
+            var postNodeResult = new PostNode();
+
+            var url = "https://jsonplaceholder.typicode.com/posts/1";
+
+            var postNode = new PostNode
+            {
+                title = "Update Title Test Jcvalera",
+                body = "Update Body Test Jcvalera",
+                userId = 50
+            };
+
+            HttpResponseMessage response;
+
+            using (var client = new HttpClient())
+            {
+                client.DefaultRequestHeaders.Clear();
+
+                var content = new StringContent(JsonConvert.SerializeObject(postNode), Encoding.UTF8, "application/json");
+
+                response = await client.PutAsync(url, content).ConfigureAwait(false);
+
+                postNodeResult = JsonConvert.DeserializeObject<PostNode>(await response.Content.ReadAsStringAsync().ConfigureAwait(false));
+            }
+
+            return postNodeResult;
+        }
+
+        public async Task<PostNode> RequestTypePATCH()
+        {
+            var postNodeResult = new PostNode();
+
+            var url = "https://jsonplaceholder.typicode.com/posts/1";
+
+            var postNode = new PostNode
+            {
+                title = "Title Jcvalera"
+            };
+
+            HttpResponseMessage response;
+
+            using (var client = new HttpClient())
+            {
+                client.DefaultRequestHeaders.Clear();
+
+                var content = new StringContent(JsonConvert.SerializeObject(postNode), Encoding.UTF8, "application/json");
+
+                response = client.DeleteAsync(url).Result;
+
+                postNodeResult = JsonConvert.DeserializeObject<PostNode>(await response.Content.ReadAsStringAsync().ConfigureAwait(false));
+            }
+
+            return postNodeResult;
         }
     }
 }
