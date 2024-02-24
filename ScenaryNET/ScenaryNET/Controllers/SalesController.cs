@@ -4,6 +4,7 @@ using Newtonsoft.Json.Serialization;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
@@ -109,6 +110,34 @@ namespace ScenaryNET.Controllers
         public ActionResult SendReportSalesCustomer()
         {
             SalesBLL.SendEmailReport();
+
+            return RedirectToAction("Index");
+        }
+
+        public async Task<ActionResult> RequestTypeGET()
+        {
+            var requestTypeGET = await SalesBLL.RequestTypeGET();
+
+            return RedirectToAction("Index");
+        }
+
+        public async Task<ActionResult> RequestTypePOST()
+        {
+            var requestTypePOST = await SalesBLL.RequestTypePOST();
+
+            return RedirectToAction("Index");
+        }
+
+        public async Task<ActionResult> RequestTypePUT()
+        {
+            var requestTypePUT = await SalesBLL.RequestTypePUT();
+
+            return RedirectToAction("Index");
+        }
+
+        public async Task<ActionResult> RequestTypePATCH()
+        {
+            var requestTypePATCH = await SalesBLL.RequestTypePATCH();
 
             return RedirectToAction("Index");
         }

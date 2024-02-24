@@ -19,12 +19,38 @@
     </div>
 }
 
-</br>
-
 @using (Html.BeginForm("SendReportSalesCustomer", "Sales", FormMethod.Post))
 {
     <div>
         <button> Send Email Report </button>
+    </div>
+}
+
+@using (Html.BeginForm("RequestTypeGET", "Sales", FormMethod.Post))
+{
+    <div>
+        <button> Example Request GET </button>
+    </div>
+}
+
+@using (Html.BeginForm("RequestTypePOST", "Sales", FormMethod.Post))
+{
+    <div>
+        <button> Example Request POST </button>
+    </div>
+}
+
+@using (Html.BeginForm("RequestTypePUT", "Sales", FormMethod.Post))
+{
+    <div>
+        <button> Example Request PUT </button>
+    </div>
+}
+
+@using (Html.BeginForm("RequestTypePATCH", "Sales", FormMethod.Post))
+{
+    <div>
+        <button> Example Request PATH </button>
     </div>
 }
 
