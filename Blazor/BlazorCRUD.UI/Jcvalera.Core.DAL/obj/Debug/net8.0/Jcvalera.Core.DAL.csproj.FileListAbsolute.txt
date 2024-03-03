@@ -1,0 +1,16 @@
+D:\Users\jcvalera\Documents\Projects\dotNET\Blazor\BlazorCRUD.UI\Jcvalera.Core.DAL\bin\Debug\net8.0\Jcvalera.Core.DAL.deps.json
+D:\Users\jcvalera\Documents\Projects\dotNET\Blazor\BlazorCRUD.UI\Jcvalera.Core.DAL\bin\Debug\net8.0\Jcvalera.Core.DAL.dll
+D:\Users\jcvalera\Documents\Projects\dotNET\Blazor\BlazorCRUD.UI\Jcvalera.Core.DAL\bin\Debug\net8.0\Jcvalera.Core.DAL.pdb
+D:\Users\jcvalera\Documents\Projects\dotNET\Blazor\BlazorCRUD.UI\Jcvalera.Core.DAL\bin\Debug\net8.0\Jcvalera.Core.Common.dll
+D:\Users\jcvalera\Documents\Projects\dotNET\Blazor\BlazorCRUD.UI\Jcvalera.Core.DAL\bin\Debug\net8.0\Jcvalera.Core.Common.pdb
+D:\Users\jcvalera\Documents\Projects\dotNET\Blazor\BlazorCRUD.UI\Jcvalera.Core.DAL\obj\Debug\net8.0\Jcvalera.Core.DAL.csproj.AssemblyReference.cache
+D:\Users\jcvalera\Documents\Projects\dotNET\Blazor\BlazorCRUD.UI\Jcvalera.Core.DAL\obj\Debug\net8.0\Jcvalera.Core.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\jcvalera\Documents\Projects\dotNET\Blazor\BlazorCRUD.UI\Jcvalera.Core.DAL\obj\Debug\net8.0\Jcvalera.Core.DAL.AssemblyInfoInputs.cache
+D:\Users\jcvalera\Documents\Projects\dotNET\Blazor\BlazorCRUD.UI\Jcvalera.Core.DAL\obj\Debug\net8.0\Jcvalera.Core.DAL.AssemblyInfo.cs
+D:\Users\jcvalera\Documents\Projects\dotNET\Blazor\BlazorCRUD.UI\Jcvalera.Core.DAL\obj\Debug\net8.0\Jcvalera.Core.DAL.csproj.CoreCompileInputs.cache
+D:\Users\jcvalera\Documents\Projects\dotNET\Blazor\BlazorCRUD.UI\Jcvalera.Core.DAL\obj\Debug\net8.0\Jcvalera.Core.DAL.sourcelink.json
+D:\Users\jcvalera\Documents\Projects\dotNET\Blazor\BlazorCRUD.UI\Jcvalera.Core.DAL\obj\Debug\net8.0\Jcvalera.79186553.Up2Date
+D:\Users\jcvalera\Documents\Projects\dotNET\Blazor\BlazorCRUD.UI\Jcvalera.Core.DAL\obj\Debug\net8.0\Jcvalera.Core.DAL.dll
+D:\Users\jcvalera\Documents\Projects\dotNET\Blazor\BlazorCRUD.UI\Jcvalera.Core.DAL\obj\Debug\net8.0\refint\Jcvalera.Core.DAL.dll
+D:\Users\jcvalera\Documents\Projects\dotNET\Blazor\BlazorCRUD.UI\Jcvalera.Core.DAL\obj\Debug\net8.0\Jcvalera.Core.DAL.pdb
+D:\Users\jcvalera\Documents\Projects\dotNET\Blazor\BlazorCRUD.UI\Jcvalera.Core.DAL\obj\Debug\net8.0\ref\Jcvalera.Core.DAL.dll
