@@ -1,0 +1,47 @@
+﻿@page "/AddUser"
+
+@inject IUserBLL UserBLL
+
+<h1>Add New User</h1>
+
+@* <EditForm Model="@user" >
+    <table class="table">
+        <tr>
+            <td>Name:</td>
+            <td><input type="text" @bind="user.Name" /> </td>
+        </tr>
+        <tr>
+            <td>Last Name:</td>
+            <td><input type="text" @bind="user.LastName" /> </td>
+        </tr>
+        <tr>
+            <td>Age:</td>
+            <td><input type="number" @bind="user.Age" /> </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align:center">
+                <input type="submit" value="Save" @onclick="SaveUser"/>
+                <input type="submit" value="Cancel" @onclick="Cancel" />
+            </td>
+        </tr>
+    </table> 
+</EditForm> *@
+
+<EditForm Model="@user" OnSubmit="SaveUser">
+    <InputText @bind-Value="@user.Name" />
+    <button type="submit">Submit</button>
+</EditForm>
+
+@code {
+    User user = new User();
+
+    protected void Cancel()
+    {
+
+    }
+
+    private async Task SaveUser()
+    {
+        await UserBLL.CreateUser(user);
+    }
+}

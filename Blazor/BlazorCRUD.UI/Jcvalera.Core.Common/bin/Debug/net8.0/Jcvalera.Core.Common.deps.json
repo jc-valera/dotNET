@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Jcvalera.Core.Common/1.0.0": {
+        "runtime": {
+          "Jcvalera.Core.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Jcvalera.Core.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,21 @@
+# Visual Studio
+.vs/
+
+# Build result
+BlazorCRUDEF/bin/
+BlazorCRUDEF/obj/
+
+Blazor.Core.BLL/bin/
+Blazor.Core.BLL/obj/
+
+Blazor.Core.Common/bin/
+Blazor.Core.Common/obj/
+
+Blazor.Core.DAL/bin/
+Blazor.Core.DAL/obj/
+
+#Visual Studio Code
+.vscode
+
+# User-specific files
+*.suo
