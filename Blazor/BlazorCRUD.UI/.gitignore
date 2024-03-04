@@ -5,14 +5,14 @@
 BlazorCRUD/bin/
 BlazorCRUD/obj/
 
-Blazor.Core.BLL/bin/
-Blazor.Core.BLL/obj/
+Jcvalera.Core.BLL/bin/
+Jcvalera.Core.BLL/obj/
 
-Blazor.Core.Common/bin/
-Blazor.Core.Common/obj/
+Jcvalera.Core.Common/bin/
+Jcvalera.Core.Common/obj/
 
-Blazor.Core.DAL/bin/
-Blazor.Core.DAL/obj/
+Jcvalera.Core.DAL/bin/
+Jcvalera.Core.DAL/obj/
 
 #Visual Studio Code
 .vscode
