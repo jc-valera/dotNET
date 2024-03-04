@@ -1,0 +1,21 @@
+# Visual Studio
+.vs/
+
+# Build result
+CrudWebMvcDapper/bin/
+CrudWebMvcDapper/obj/
+
+Jcvalera.Core.BLL/bin/
+Jcvalera.Core.BLL/obj/
+
+Jcvalera.Core.Common/bin/
+Jcvalera.Core.Common/obj/
+
+Jcvalera.Core.DAL/bin/
+Jcvalera.Core.DAL/obj/
+
+#Visual Studio Code
+.vscode
+
+# User-specific files
+*.suo
