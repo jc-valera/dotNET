@@ -1,0 +1,16 @@
+D:\Users\jcvalera\Documents\Projects\Git\dotNET\UniversityApp\University.Core.DAL\bin\Debug\net8.0\University.Core.DAL.deps.json
+D:\Users\jcvalera\Documents\Projects\Git\dotNET\UniversityApp\University.Core.DAL\bin\Debug\net8.0\University.Core.DAL.dll
+D:\Users\jcvalera\Documents\Projects\Git\dotNET\UniversityApp\University.Core.DAL\bin\Debug\net8.0\University.Core.DAL.pdb
+D:\Users\jcvalera\Documents\Projects\Git\dotNET\UniversityApp\University.Core.DAL\bin\Debug\net8.0\University.Core.Common.dll
+D:\Users\jcvalera\Documents\Projects\Git\dotNET\UniversityApp\University.Core.DAL\bin\Debug\net8.0\University.Core.Common.pdb
+D:\Users\jcvalera\Documents\Projects\Git\dotNET\UniversityApp\University.Core.DAL\obj\Debug\net8.0\University.Core.DAL.csproj.AssemblyReference.cache
+D:\Users\jcvalera\Documents\Projects\Git\dotNET\UniversityApp\University.Core.DAL\obj\Debug\net8.0\University.Core.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\jcvalera\Documents\Projects\Git\dotNET\UniversityApp\University.Core.DAL\obj\Debug\net8.0\University.Core.DAL.AssemblyInfoInputs.cache
+D:\Users\jcvalera\Documents\Projects\Git\dotNET\UniversityApp\University.Core.DAL\obj\Debug\net8.0\University.Core.DAL.AssemblyInfo.cs
+D:\Users\jcvalera\Documents\Projects\Git\dotNET\UniversityApp\University.Core.DAL\obj\Debug\net8.0\University.Core.DAL.csproj.CoreCompileInputs.cache
+D:\Users\jcvalera\Documents\Projects\Git\dotNET\UniversityApp\University.Core.DAL\obj\Debug\net8.0\University.Core.DAL.sourcelink.json
+D:\Users\jcvalera\Documents\Projects\Git\dotNET\UniversityApp\University.Core.DAL\obj\Debug\net8.0\Universi.1D78294C.Up2Date
+D:\Users\jcvalera\Documents\Projects\Git\dotNET\UniversityApp\University.Core.DAL\obj\Debug\net8.0\University.Core.DAL.dll
+D:\Users\jcvalera\Documents\Projects\Git\dotNET\UniversityApp\University.Core.DAL\obj\Debug\net8.0\refint\University.Core.DAL.dll
+D:\Users\jcvalera\Documents\Projects\Git\dotNET\UniversityApp\University.Core.DAL\obj\Debug\net8.0\University.Core.DAL.pdb
+D:\Users\jcvalera\Documents\Projects\Git\dotNET\UniversityApp\University.Core.DAL\obj\Debug\net8.0\ref\University.Core.DAL.dll

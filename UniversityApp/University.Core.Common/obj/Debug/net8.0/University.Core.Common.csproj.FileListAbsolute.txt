@@ -1,0 +1,12 @@
+D:\Users\jcvalera\Documents\Projects\Git\dotNET\UniversityApp\University.Core.Common\bin\Debug\net8.0\University.Core.Common.deps.json
+D:\Users\jcvalera\Documents\Projects\Git\dotNET\UniversityApp\University.Core.Common\bin\Debug\net8.0\University.Core.Common.dll
+D:\Users\jcvalera\Documents\Projects\Git\dotNET\UniversityApp\University.Core.Common\bin\Debug\net8.0\University.Core.Common.pdb
+D:\Users\jcvalera\Documents\Projects\Git\dotNET\UniversityApp\University.Core.Common\obj\Debug\net8.0\University.Core.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\jcvalera\Documents\Projects\Git\dotNET\UniversityApp\University.Core.Common\obj\Debug\net8.0\University.Core.Common.AssemblyInfoInputs.cache
+D:\Users\jcvalera\Documents\Projects\Git\dotNET\UniversityApp\University.Core.Common\obj\Debug\net8.0\University.Core.Common.AssemblyInfo.cs
+D:\Users\jcvalera\Documents\Projects\Git\dotNET\UniversityApp\University.Core.Common\obj\Debug\net8.0\University.Core.Common.csproj.CoreCompileInputs.cache
+D:\Users\jcvalera\Documents\Projects\Git\dotNET\UniversityApp\University.Core.Common\obj\Debug\net8.0\University.Core.Common.sourcelink.json
+D:\Users\jcvalera\Documents\Projects\Git\dotNET\UniversityApp\University.Core.Common\obj\Debug\net8.0\University.Core.Common.dll
+D:\Users\jcvalera\Documents\Projects\Git\dotNET\UniversityApp\University.Core.Common\obj\Debug\net8.0\refint\University.Core.Common.dll
+D:\Users\jcvalera\Documents\Projects\Git\dotNET\UniversityApp\University.Core.Common\obj\Debug\net8.0\University.Core.Common.pdb
+D:\Users\jcvalera\Documents\Projects\Git\dotNET\UniversityApp\University.Core.Common\obj\Debug\net8.0\ref\University.Core.Common.dll

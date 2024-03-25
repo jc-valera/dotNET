@@ -1,0 +1,106 @@
+﻿@model University.Core.Common.Entities.Student
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Student</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @* <div class="form-group">
+                <label asp-for="Id" class="control-label"></label>
+                <input asp-for="Id" class="form-control" />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div> *@
+            <div class="form-group">
+                @* <label asp-for="Names" class="control-label"></label> *@
+                Nombre:
+                <input asp-for="Names" class="form-control" />
+                <span asp-validation-for="Names" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                @* <label asp-for="FirstSurname" class="control-label"></label> *@
+                Apellido Paterno:
+                <input asp-for="FirstSurname" class="form-control" />
+                <span asp-validation-for="FirstSurname" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                @* <label asp-for="SecondSurname" class="control-label"></label> *@
+                Apellido Materno:
+                <input asp-for="SecondSurname" class="form-control" />
+                <span asp-validation-for="SecondSurname" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                @* <label asp-for="BirthDate" class="control-label"></label> *@
+                Fecha de Nacimiento:
+                <input asp-for="BirthDate" class="form-control" />
+                <span asp-validation-for="BirthDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                @* <label asp-for="Age" class="control-label"></label> *@
+                Edad:
+                <input asp-for="Age" class="form-control" />
+                <span asp-validation-for="Age" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                @* <label asp-for="GenderId" class="control-label"></label>
+                <input asp-for="GenderId" class="form-control" />
+                <span asp-validation-for="GenderId" class="text-danger"></span> *@
+                Genero:
+                @Html.DropDownListFor(model => model.GenderId, new SelectList(ViewBag.Genders, "Id", "Description"))
+            </div>
+            <br />
+            <div class="form-group">
+                @* <label asp-for="CarrersId" class="control-label"></label>
+                <input asp-for="CarrersId" class="form-control" />
+                <span asp-validation-for="CarrersId" class="text-danger"></span> *@
+                Carrera:
+                @Html.DropDownListFor(model => model.CarrersId, new SelectList(ViewBag.Carrers, "Id", "Description"))
+            </div>
+            <br />
+            <div class="form-group">
+                @* <label asp-for="MaximunLevelStudiesId" class="control-label"></label>
+                <input asp-for="MaximunLevelStudiesId" class="form-control" />
+                <span asp-validation-for="MaximunLevelStudiesId" class="text-danger"></span> *@
+                Maximo Nivel de Estudios:
+                @Html.DropDownListFor(model => model.MaximunLevelStudiesId, new SelectList(ViewBag.LevelStudies, "Id", "Description"))
+            </div>
+            <br />
+            <div class="form-group">
+                @* <label asp-for="CivilStatusId" class="control-label"></label>
+                <input asp-for="CivilStatusId" class="form-control" />
+                <span asp-validation-for="CivilStatusId" class="text-danger"></span> *@
+                Estado Civil:
+                @Html.DropDownListFor(model => model.CivilStatusId, new SelectList(ViewBag.CivilStatus, "Id", "Description"))
+            </div>
+            <br />
+            <div class="form-group">
+                @* <label asp-for="StudentStatusId" class="control-label"></label>
+                <input asp-for="StudentStatusId" class="form-control" />
+                <span asp-validation-for="StudentStatusId" class="text-danger"></span> *@
+                Estatus:
+                @Html.DropDownListFor(model => model.StudentStatusId, new SelectList(ViewBag.StudentStatus, "Id", "Description"))
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
