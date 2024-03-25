@@ -1,0 +1,151 @@
+﻿@model IEnumerable<University.Core.Common.Entities.Student>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Create New</a>
+</p>
+<table class="table" style="font-size: 12px;">
+    <thead>
+        <tr>
+            @* <th>
+            @Html.DisplayNameFor(model => model.Id)
+            </th> *@
+            <th>
+                @* @Html.DisplayNameFor(model => model.Names) *@
+                Nombre
+            </th>
+            <th>
+                @* @Html.DisplayNameFor(model => model.FirstSurname) *@
+                Apellido Paterno
+            </th>
+            <th>
+                @* @Html.DisplayNameFor(model => model.SecondSurname) *@
+                Apellido Materno
+            </th>
+            <th>
+                @* @Html.DisplayNameFor(model => model.BirthDate) *@
+                Fecha De Nacimiento
+            </th>
+            <th>
+                @* @Html.DisplayNameFor(model => model.Age) *@
+                Edad
+            </th>
+            <th>
+                @* @Html.DisplayNameFor(model => model.GenderId) *@
+                Genero
+            </th>
+            <th>
+                @* @Html.DisplayNameFor(model => model.CarrersId) *@
+                Carrera
+            </th>
+            <th>
+                @* @Html.DisplayNameFor(model => model.MaximunLevelStudiesId) *@
+                Nivel de Estudios
+            </th>
+            <th>
+                @* @Html.DisplayNameFor(model => model.CivilStatusId) *@
+                Estado Civil
+            </th>
+            <th>
+                @* @Html.DisplayNameFor(model => model.StudentStatusId) *@
+                Estatus
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                @* <td>
+                @Html.DisplayFor(modelItem => item.Id)
+                </td> *@
+                <td>
+                    @* @Html.DisplayFor(modelItem => item.Names) *@
+                    @Html.Label(item.Names)
+                </td>
+                <td>
+                    @* @Html.DisplayFor(modelItem => item.FirstSurname) *@
+                    @Html.Label(item.FirstSurname)
+                </td>
+                <td>
+                    @* @Html.DisplayFor(modelItem => item.SecondSurname) *@
+                    @Html.Label(item.SecondSurname)
+                </td>
+                <td>
+                    @* @Html.DisplayFor(modelItem => item.BirthDate) *@
+                    @Html.Label(item.BirthDate.ToString("dd/MM/yyyy"))
+                </td>
+                <td>
+                    @* @Html.DisplayFor(modelItem => item.Age) *@
+                    @Html.Label(item.Age.ToString())
+                </td>
+                <td>
+                    @* @Html.DisplayFor(modelItem => item.GenderId) *@
+                    @* @Html.DropDownListFor(modelItem => item.GenderId, new SelectList(ViewBag.Genders, "Id", "Description", item.GenderId), new { disabled = "disabled" }) *@
+                    @foreach (var gender in ViewBag.Genders)
+                    {
+                        if (gender.Id == item.GenderId)
+                        {
+                            <label>@gender.Description</label>
+                        }
+                    }
+                </td>
+                <td>
+                    @* @Html.DisplayFor(modelItem => item.CarrersId) *@
+                    @* @Html.DropDownListFor(modelItem => item.CarrersId, new SelectList(ViewBag.Carrers, "Id", "Description", item.CarrersId), new { disabled = "disabled" }) *@
+                    @foreach (var carrer in ViewBag.Carrers)
+                    {
+                        if (carrer.Id == item.CarrersId)
+                        {
+                            <label>@carrer.Description</label>
+                        }
+                    }
+                </td>
+                <td>
+                    @* @Html.DisplayFor(modelItem => item.MaximunLevelStudiesId) *@
+                    @* @Html.DropDownListFor(modelItem => item.MaximunLevelStudiesId, new SelectList(ViewBag.LevelStudies, "Id", "Description", item.MaximunLevelStudiesId), new { disabled = "disabled" }) *@
+                    @foreach (var levelStudie in ViewBag.LevelStudies)
+                    {
+                        if (levelStudie.Id == item.MaximunLevelStudiesId)
+                        {
+                            <label>@levelStudie.Description</label>
+                        }
+                    }
+                </td>
+                <td>
+                    @* @Html.DisplayFor(modelItem => item.CivilStatusId) *@
+                    @* @Html.DropDownListFor(modelItem => item.CivilStatusId, new SelectList(ViewBag.CivilStatus, "Id", "Description", item.CivilStatusId), new { disabled = "disabled" }) *@
+                    @foreach (var civilStatus in ViewBag.CivilStatus)
+                    {
+                        if (civilStatus.Id == item.CivilStatusId)
+                        {
+                            <label>@civilStatus.Description</label>
+                        }
+                    }
+                </td>
+                <td>
+                    @* @Html.DisplayFor(modelItem => item.StudentStatusId) *@
+                    @* @Html.DropDownListFor(modelItem => item.StudentStatusId, new SelectList(ViewBag.StudentStatus, "Id", "Description", item.StudentStatusId), new { disabled = "disabled" }) *@
+                    @foreach (var studentStatus in ViewBag.StudentStatus)
+                    {
+                        if (studentStatus.Id == item.StudentStatusId)
+                        {
+                            <label>@studentStatus.Description</label>
+                        }
+                    }
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }, new { @class = "btn btn-warning" })
+                    @Html.ActionLink("Details", "Details", new { id = item.Id }, new { @class = "btn btn-info" })
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id }, new { @class = "btn btn-danger"})
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

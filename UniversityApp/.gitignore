@@ -1,0 +1,21 @@
+# Visual Studio
+.vs/
+
+# Build result
+UniversityApp/bin/
+UniversityApp/obj/
+
+University.Core.BLL/bin/
+University.Core.BLL/obj/
+
+University.Core.Common/bin/
+University.Core.Common/obj/
+
+University.Core.DAL/bin/
+University.Core.DAL/obj/
+
+#Visual Studio Code
+.vscode
+
+# User-specific files
+*.suo
