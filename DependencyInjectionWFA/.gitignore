@@ -1,0 +1,13 @@
+# Visual Studio
+.vs/
+
+# Build result
+DependencyInjectionWFA/bin/
+DependencyInjectionWFA/obj/
+
+#Visual Studio Code
+.vscode
+
+# User-specific files
+*.suo
+
