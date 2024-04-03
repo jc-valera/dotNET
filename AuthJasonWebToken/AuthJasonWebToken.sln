@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34707.107
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthJasonWebToken", "AuthJasonWebToken\AuthJasonWebToken.csproj", "{FA85181B-AD21-40BE-95CF-E898E8D76732}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{1644FD2A-D2C3-407D-B2AA-58B65C161FF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{8AE2DC4C-A3FF-4753-945E-6C1423DE6C4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{39E51B90-504A-4E92-B22A-BDF04FD944EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth.Core.BLL", "Auth.Core.BLL\Auth.Core.BLL.csproj", "{CA298084-7F93-4C4C-BC64-B907C18D14FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth.Core.Common", "Auth.Core.Common\Auth.Core.Common.csproj", "{44C98919-2440-4EEE-99BC-11F56E1B35F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA85181B-AD21-40BE-95CF-E898E8D76732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA85181B-AD21-40BE-95CF-E898E8D76732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA85181B-AD21-40BE-95CF-E898E8D76732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA85181B-AD21-40BE-95CF-E898E8D76732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA298084-7F93-4C4C-BC64-B907C18D14FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA298084-7F93-4C4C-BC64-B907C18D14FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA298084-7F93-4C4C-BC64-B907C18D14FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA298084-7F93-4C4C-BC64-B907C18D14FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44C98919-2440-4EEE-99BC-11F56E1B35F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44C98919-2440-4EEE-99BC-11F56E1B35F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44C98919-2440-4EEE-99BC-11F56E1B35F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44C98919-2440-4EEE-99BC-11F56E1B35F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8AE2DC4C-A3FF-4753-945E-6C1423DE6C4F} = {1644FD2A-D2C3-407D-B2AA-58B65C161FF4}
+		{39E51B90-504A-4E92-B22A-BDF04FD944EA} = {1644FD2A-D2C3-407D-B2AA-58B65C161FF4}
+		{CA298084-7F93-4C4C-BC64-B907C18D14FF} = {8AE2DC4C-A3FF-4753-945E-6C1423DE6C4F}
+		{44C98919-2440-4EEE-99BC-11F56E1B35F3} = {39E51B90-504A-4E92-B22A-BDF04FD944EA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50BFDC4D-A865-4745-9B97-735FDC967369}
+	EndGlobalSection
+EndGlobal
