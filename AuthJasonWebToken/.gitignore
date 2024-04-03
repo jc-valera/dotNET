@@ -1,0 +1,18 @@
+#Visual studio
+.vs/
+
+#Build result
+Auth.Core.BLL/obj/
+Auth.Core.BLL/bin/
+
+Auth.Core.Common/bin/
+Auth.Core.Common/obj/
+
+AuthJasonWebToke/bin/
+AuthJasonWebToken/obj/
+
+#Visual Studio Code
+.vscode
+
+# User-specific files
+*.suo
