@@ -8,7 +8,7 @@ Auth.Core.BLL/bin/
 Auth.Core.Common/bin/
 Auth.Core.Common/obj/
 
-AuthJasonWebToke/bin/
+AuthJasonWebToken/bin/
 AuthJasonWebToken/obj/
 
 #Visual Studio Code
