@@ -1,6 +1,5 @@
-﻿using Auth.Core.BLL;
+﻿using Auth.Core.Common.Services;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AuthJasonWebToken.Controllers
@@ -10,11 +9,11 @@ namespace AuthJasonWebToken.Controllers
     [ApiController]
     public class EmployeesController : ControllerBase
     {
-        public RequestBLL RequestBLL;
+        public IRequestBLL RequestBLL;
 
-        public EmployeesController()
+        public EmployeesController(IRequestBLL requestBLL)
         {
-            RequestBLL = new RequestBLL();
+            RequestBLL = requestBLL;
         }
 
         [HttpGet("getAllEmployees")]
