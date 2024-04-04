@@ -1,4 +1,6 @@
+using Auth.Core.BLL;
 using Auth.Core.Common.Entities;
+using Auth.Core.Common.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
@@ -33,6 +35,8 @@ builder.Services.AddAuthentication(config =>
         ValidateAudience = false,
     };
 });
+
+builder.Services.AddScoped<IRequestBLL, RequestBLL>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

@@ -5,7 +5,5 @@
         public string SecretKey { get; set; }
 
         public string TestSolApi { get; set; }
-
-        public int StatusCode { get; set; }
     }
 }
