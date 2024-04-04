@@ -1,17 +1,26 @@
+using Auth.Core.Common.Entities;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Configuration.AddJsonFile("appsettings.json");
-var secretKey = builder.Configuration.GetSection("AppConfig").GetSection("SecretKey").ToString();
-var keyBytes = Encoding.UTF8.GetBytes(secretKey);
+//builder.Configuration.AddJsonFile("appsettings.json");
+//var secretKey = builder.Configuration.GetSection("AppConfig").GetSection("SecretKey").ToString();
+//var keyBytes = Encoding.UTF8.GetBytes(secretKey);
+
+var appSettingsSection = builder.Configuration.GetSection("AppConfig");
+builder.Services.Configure<AppSettings>(appSettingsSection);
+
+var appSetting = appSettingsSection.Get<AppSettings>();
+var keyBytes = Encoding.UTF8.GetBytes(appSetting.SecretKey);
 
 builder.Services.AddAuthentication(config =>
 {
     config.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
     config.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+    //
+    config.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
 }).AddJwtBearer(config =>
 {
     config.RequireHttpsMetadata = false;
