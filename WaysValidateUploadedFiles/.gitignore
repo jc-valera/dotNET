@@ -1,0 +1,12 @@
+# Visual Studio
+.vs/
+
+# Build Results
+WaysValidateUploadedFiles/bin/
+WaysValidateUploadedFiles/obj/
+
+# Visual Studio Code
+.vscode
+
+# User-specify files
+*.suo
