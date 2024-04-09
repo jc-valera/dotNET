@@ -1,0 +1,6 @@
+@WaysValidateUploadedFiles_HostAddress = http://localhost:5170
+
+GET {{WaysValidateUploadedFiles_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
