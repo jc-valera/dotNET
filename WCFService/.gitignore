@@ -1,0 +1,24 @@
+# Visual Studio
+.vs/
+
+# Build Results
+Wcf.Core.BLL/bin/
+Wcf.Core.BLL/obj/
+
+Wcf.Core.Common/bin/
+Wcf.Core.Common/obj/
+
+Wcf.Core.DAL/bin/
+Wcf.Core.DAL/obj/
+
+WcfForms/bin/
+WcfForms/obj/
+
+WCFService/bin/
+WCFService/obj/
+
+# Visual Studio Code
+.vscode
+
+# User-specify files
+*.suo
